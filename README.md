@@ -3,32 +3,37 @@ Bookstore is a full-featured web application built using ASP.NET Core MVC and En
 
 # Features
 
-<h3> 1-User Authentication & Authorization:<h/3>
-Register and login functionality for users.<br>
-Role-based authorization (Admin & Customer roles).
-Identity framework integration to manage users.
-CRUD Operations:
+<h3> 1-User Authentication & Authorization:</h3><br>
+-Register and login functionality for users.<br>
+-Role-based authorization (Admin & Customer roles).<br>
+-Identity framework integration to manage users.<br>
 
-Manage books (create, read, update, delete).
-Manage book categories and companies.
-Manage customer orders and view order history.
-Manage shopping cart (add, remove items).
-Payment Integration:
+<h3>2-CRUD Operations:</h3><br>
+-Manage books (create, read, update, delete).<br>
+-Manage book categories and companies.<br>
+-Manage customer orders and view order history.<br>
+-Manage shopping cart (add, remove items).<br>
 
-Stripe payment gateway integration for secure payments.
-Admin Panel:
+<h3>3-Payment Integration:</h3><br>
+-Stripe payment gateway integration for secure payments.<br>
 
-Admin users can add, edit, and delete books, categories, and companies.
-Admin users can view and manage customer orders.
-Search & Filtering:
+<h3>4-Admin Panel:</h3><br>
+-Admin users can add, edit, and delete books, categories, and companies.<br>
+-Admin users can view and manage customer orders.<br>
 
-Users can search for books and filter them by category or company.
-Responsive Design:
+<h3>5-Search & Filtering:</h3><br>
+-Users can search for books and filter them by category or company.<br>
 
-Fully responsive and mobile-friendly design using Bootstrap 5.
+<h3>6-Responsive Design:</h3><br>
+-Fully responsive and mobile-friendly design using Bootstrap.
 
 # Technology Stack
-C#: Backend logic and API development.<br>
-HTML & CSS: Frontend structure and styling.<br>
-JavaScript: Interactive elements and client-side logic.<br>
-Database: Integrated with a SQL database for data storage.
+ASP.NET Core MVC: For building the web application using the Model-View-Controller pattern.<br>
+Entity Framework Core: For database management and interaction using code-first migrations.<br> 
+SQL Server: As the database for storing books, users, orders, etc.<br>
+ASP.NET Identity: For handling user registration, login, and role management.<br>
+Stripe Payment Gateway: For secure payment processing.<br>
+Razor Pages & Views: For dynamic content rendering.<br>
+Dependency Injection: For managing services in a loosely coupled manner.<br>
+Repository Pattern: For interacting with the database through a clean abstraction.<br>
+Bootstrap: For responsive and mobile-friendly user interface.<br>
