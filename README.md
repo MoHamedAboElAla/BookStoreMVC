@@ -1,5 +1,5 @@
 # Overview
-EcommerceBookStoreProject is an advanced e-commerce platform tailored for online bookstores. Built using C#, HTML, CSS, and JavaScript, this project offers a complete solution for managing and selling books online, featuring a user-friendly interface and efficient backend management.
+BookStore is an advanced e-commerce platform tailored for online bookstores. Built using C#, HTML, CSS, and JavaScript, this project offers a complete solution for managing and selling books online, featuring a user-friendly interface and efficient backend management.
 
 # Key Features
 1-User Authentication: Secure login and registration system.<br>
