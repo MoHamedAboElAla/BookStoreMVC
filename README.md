@@ -1,5 +1,5 @@
 # Overview
-BookStore is an advanced e-commerce platform tailored for online bookstores. Built using C#, HTML, CSS, and JavaScript, this project offers a complete solution for managing and selling books online, featuring a user-friendly interface and efficient backend management.
+Bookstore is a full-featured web application built using ASP.NET Core MVC and Entity Framework. The application allows users to browse through a variety of books, add them to their cart, place orders, and manage their account. It also includes administrative features for managing products, categories, companies, and orders. The project incorporates user authentication and authorization, enabling different roles for customers and administrators. For payment, the app integrates with Stripe to handle secure transactions. The project demonstrates the use of various modern technologies and best practices such as the Repository Pattern, dependency injection, and database seeding with migrations.
 
 # Key Features
 1-User Authentication: Secure login and registration system.<br>
