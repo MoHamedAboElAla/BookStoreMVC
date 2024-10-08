@@ -21,7 +21,7 @@ Bookstore is a full-featured web application built using ASP.NET Core MVC and En
 -Admin users can add, edit, and delete books, categories, and companies.<br>
 -Admin users can view and manage customer orders.
 
-<h3>5-Search & Filtering:</h3><br>
+<h3>5-Search & Filtering:</h3>
 -Users can search for books and filter them by category or company.
 
 <h3>6-Responsive Design:</h3>
