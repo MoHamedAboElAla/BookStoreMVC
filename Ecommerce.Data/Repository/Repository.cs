@@ -25,9 +25,17 @@ namespace Ecommerce.DataAcess.Repository
             
         }
 
-        public T Get(Expression<Func<T, bool>> filter, string? includePropperties = null)
+        public T Get(Expression<Func<T, bool>> filter, string? includePropperties = null, bool tracked=false)
         {
-            IQueryable<T> query = dbSet;
+            IQueryable<T> query;
+            if (tracked)
+            {
+                query = dbSet;
+            }
+            else
+            { 
+                query=dbSet.AsNoTracking();
+            }
             query= query.Where(filter);
             if (!string.IsNullOrEmpty(includePropperties))
             {
@@ -40,9 +48,13 @@ namespace Ecommerce.DataAcess.Repository
             return query.FirstOrDefault();
         }
 
-        public IEnumerable<T> GetAll(string? includePropperties = null)
+        public IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter, string? includePropperties = null)
         {
             IQueryable<T> query = dbSet;
+            if (filter != null)
+            {
+                query = query.Where(filter);
+            }
             if (!string.IsNullOrEmpty(includePropperties))
             {
                 foreach (var prop in includePropperties
