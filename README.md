@@ -3,9 +3,9 @@ Bookstore is a full-featured web application built using ASP.NET Core MVC and En
 
 # Features
 
-<h3> 1-User Authentication & Authorization:</h3><br>
--Register and login functionality for users.
--Role-based authorization (Admin & Customer roles).
+<h3> 1-User Authentication & Authorization:</h3>
+-Register and login functionality for users.<br>
+-Role-based authorization (Admin & Customer roles).<br>
 -Identity framework integration to manage users.
 
 <h3>2-CRUD Operations:</h3><br>
