@@ -8,23 +8,23 @@ Bookstore is a full-featured web application built using ASP.NET Core MVC and En
 -Role-based authorization (Admin & Customer roles).<br>
 -Identity framework integration to manage users.
 
-<h3>2-CRUD Operations:</h3><br>
+<h3>2-CRUD Operations:</h3>
 -Manage books (create, read, update, delete).<br>
 -Manage book categories and companies.<br>
 -Manage customer orders and view order history.<br>
 -Manage shopping cart (add, remove items).
 
-<h3>3-Payment Integration:</h3><br>
+<h3>3-Payment Integration:</h3>
 -Stripe payment gateway integration for secure payments.
 
-<h3>4-Admin Panel:</h3><br>
+<h3>4-Admin Panel:</h3>
 -Admin users can add, edit, and delete books, categories, and companies.<br>
 -Admin users can view and manage customer orders.
 
 <h3>5-Search & Filtering:</h3><br>
 -Users can search for books and filter them by category or company.
 
-<h3>6-Responsive Design:</h3><br>
+<h3>6-Responsive Design:</h3>
 -Fully responsive and mobile-friendly design using Bootstrap.
 
 # Technology Stack
